@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hkllzh.scrollerdemo.MainActivity">
 
-    <com.hkllzh.scrollerdemo.CustomTextView
+    <TextView
         android:id="@+id/tvTest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,10 +21,10 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:text="@string/info"
+        android:layout_height="wrap_content"
         android:layout_below="@id/tvTest"
         android:layout_marginTop="10dp"
-        android:layout_height="wrap_content" />
+        android:text="@string/info" />
 
     <Button
         android:layout_width="match_parent"
