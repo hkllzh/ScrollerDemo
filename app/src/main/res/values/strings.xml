@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ScrollerDemo</string>
+    <string name="info">单纯的Scroller滚动，View的位置没有发送变化。里面的内容发生的滚动操作，效果点击下面按钮。</string>
 </resources>
